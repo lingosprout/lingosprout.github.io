@@ -1,0 +1,24 @@
+{
+  "screens": [
+    { "file": "appstore_01_onboarding.png", "label": "Onboarding" },
+    { "file": "appstore_02_vault.png", "label": "Vault" },
+    { "file": "appstore_03_detail.png", "label": "Character detail" },
+    { "file": "appstore_04_learn_demo.png", "label": "Stroke-order demo" },
+    { "file": "appstore_05_learn_traced.png", "label": "Tracing" },
+    { "file": "appstore_06_quiz.png", "label": "Quiz" }
+  ],
+  "devices": [
+    { "id": "iphone-6.9", "label": "iPhone 6.9\"" },
+    { "id": "iphone-6.5", "label": "iPhone 6.5\"" },
+    { "id": "ipad-13", "label": "iPad 13\"" }
+  ],
+  "batches": [
+    {
+      "date": "2026-08-02",
+      "tag": null,
+      "commit": "ab513e2",
+      "note": "Native Swift/SwiftUI rewrite: bank-search “Add characters”, animated numbered stroke-order demo, responsive iPhone + iPad layout, quiz, and per-profile vaults.",
+      "devices": ["iphone-6.9", "iphone-6.5", "ipad-13"]
+    }
+  ]
+}
